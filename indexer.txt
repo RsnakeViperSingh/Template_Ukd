@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HOME WORK</title>
+	<style type="text/css">
+		.topnav{
+			overflow: hidden;
+			background-color: teal;
+			box-shadow: 0 0 10px 0 yellow;
+		}
+		.topnav a{
+			text-shadow: 1px 1px yellow;
+			float: right;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		.topnav a:hover{
+			background-color: skyblue;
+			color: black;
+		}
+		.header{
+            text-shadow: 1px 1px yellow;
+			margin: 0px;
+			background-color: teal;
+			color: white;
+			font-style: cursive;
+			text-align: center;
+			padding: 10px;
+		}
+		.container{
+			width: 100%;
+
+		}
+		.left{
+			width: 15%;
+			float: left;
+			background-color: skyblue;
+		} 
+		.body{
+			width: 65%;
+			padding: 5px;
+			float: left;
+			margin: 0;
+			text-align: center;
+		}
+		.body h2{
+			color: teal;
+			font-style: italic;
+		}
+        .right{
+        	width: 15%;
+        	float: right;
+        	background-color: skyblue;
+        }
+        .footer{
+        	margin: -8px;
+        	clear: both;
+        	position: sticky;
+        	background-color: teal;
+        	color: white;
+        	text-align: center;
+        	padding: 10px;
+        	bottom: 0;
+        } 
+      p{
+      	text-align: justify;
+      	color: black;
+      	font-size: 20px;
+      	font-style: italic;
+      	margin: 5px;
+
+      }
+      img{
+      	float: left; margin: 15px;
+      }
+body{ margin: 0; }
+</style>
+</head>
+<body>
+	<!-- Body Start -->
+	<div class="header"><b><i>Home-Work-Task.com</i></b></div>
+	<div class="topnav">
+		<a href="contact.html" target="_blank">Enquiry</a>
+		<a href="contact.html" target="_blank">Register</a>
+		<a href="contact.html" target="_blank">Login</a>
+		<a href="#">Home</a>
+	</div>
+	<div class="container">
+		<div class="left">
+		<marquee direction="down">
+        <i><h3><pre>  Notifications </pre></h3></i>
+            <ul type="square">
+                <li>Notification Link 1</li>
+                <li>Notification Link 2</li>
+                <li>Notification Link 3</li>
+                <li>Notification Link 4</li>
+                <li>Notification Link 5</li>
+                <li>Notification Link 7</li>
+                <li>Notification Link 8</li>
+                <li>Notification Link 9</li>
+                <li>Notification Link 10</li>
+                <li>Notification Link 11</li>
+            </ul>
+        </marquee>
+	</div>
+
+	<div class="body">
+		<h2>Home Work Task</h2>
+		<i> A Home Work Task of Web Tech By Manish Singh</i>
+				<img src="lpu.jpg" alt="lpu" width="90" height="90" ><div class="line"></div>
+		 <p>
+		 	<b>Uttarakhand </b>, a state in northern India crossed by the Himalayas, is known for its Hindu pilgrimage sites. Rishikesh, a major centre for yoga study, was made famous by the Beatles’ 1968 visit. The city hosts the evening Ganga Aarti, a spiritual gathering on the sacred Ganges River. The state's forested Jim Corbett National Park shelters Bengal tigers and other native wildlife. Uttarakhand's name is derived from the Sanskrit words uttara (उत्तर) meaning 'north', and khaṇḍa 
+		 	(खण्ड) meaning 'land', altogether simply meaning 'Northern Land'. The name finds mention in early Hindu scriptures as the combined region of "Kedarkhand" (present day Garhwal) and "Manaskhand" (present day Kumaon). Uttarakhand was also the ancient Puranic term for the central stretch of the Indian Himalayas ― Google
+		 </p>
+	</div>
+
+<div class="right">
+	<p>right here</p>
+</div>
+<div class="footer">
+footer
+</div>
+</body>
+</html>
